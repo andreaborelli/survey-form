@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Survey Form StartUp</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<header>
+  <h1 id="title">Survey Form StartUp</h1>
+  <p id="description">Your opinion is important help us improve, fill in the fields below.</p>
+</header>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" name="name" placeholder="Andrea Borelli" class="form-inputs" required></input>
+    <br>
+      <label for="email" id="email-label">Email</label>
+      <input id="email" type="email" name="email" placeholder="andrea@email.it" class="form-inputs" required></input>
+   <br>
+<label for="number" id="number-label">Age</label>
+  <input id="number" type="number" name="number" min="18" max="100" placeholder="18" class="form-inputs" required></input>
+  <br>
+<label for="dropdown">Area of expertise</label>
+<select id="dropdown">
+  <option value="Web Developer">Business</option>
+    <option value="SEO Specialist">SEO</option>
+    <option value="Digital Strategist">Design</option>
+    <option value="Community Manager">Coding</option>
+    <option value="Data Scientist">Management</option>
+</select>
+<br>
+<br>
+<label for="course-online">How often do you buy online training courses?</label>
+<br>
+<input type="radio" name="buy" value="never">Never</input>
+<br>
+<input type="radio" name="buy" value="Almost never">Almost never</input>
+<br>
+<input type="radio" name="buy" value="sometimes">Sometimes</input>
+<br>
+<input type="radio" name="buy" value="often">Often</input>
+<br>
+<br>
+<label for="course-online">What is the job you would like to do?</label>
+<br>
+<input type="checkbox" name="job" value="Web Developer">Web Developer</input>
+<br>
+<input type="checkbox" name="job" value="SEO Specialist">SEO Specialist</input>
+<br>
+<input type="checkbox" name="job" value="Data Scientist">Data Scientist</input>
+<br>
+<input type="checkbox" name="job" value="UX/UI Designer">UX/UI Designer</input>
+<br>
+<input type="checkbox" name="job" value="Community Manager">Community Manager</input>
+<br>
+<input type="checkbox" name="job" value="Growth Hacker">Growth Hacker</input>
+<br>
+<input type="checkbox" name="job" value="Altro">Altro</input>
+<br>
+<br>
+<label for="textarea">Other information</label>
+<textarea id="textarea" name="information" placeholder="comments here" rows="5" cols="50">
+</textarea>
+<br>
+<input id="submit" type="submit" value="submit"></input>
+  </form>
+
+  <!-- Footer -->
+  <div class="copyright">
+    <p>Created By <span><a href="http://www.andreaborelli.it/" target="_blank">Andrea Borelli</a></span> | &copy; 2022 All rights reserved.</p>
+  </div>
+
+</body>
+</html>
